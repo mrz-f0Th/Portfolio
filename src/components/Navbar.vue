@@ -6,7 +6,7 @@
             <nav class="flex items-center justify-between mb-16 w-full">
                 <img src="../assets/image/navbar-logo.png" alt="Logo" class="w-16 bg-gray-200 md:mr-14">
 
-                <ul class=" flex box-border h-5">
+                <ul class="box-border h-5 hidden md:flex">
                     <li><router-link to="/" class="mx-5 hover:border-b-2 border-gray-700">Home</router-link></li>
                     <li><router-link to="/aboutme" class="mx-5 hover:border-b-2 border-gray-700">About</router-link></li>
                     <li><router-link to="/porto" class="mx-5 hover:border-b-2 border-gray-700">Porto</router-link></li>
