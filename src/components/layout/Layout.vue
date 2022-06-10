@@ -24,7 +24,6 @@
 </template>
 
         <script>
-feather.replace();
 
 import Navbar from "../Navbar.vue";
 
