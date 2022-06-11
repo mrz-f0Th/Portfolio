@@ -18,7 +18,8 @@
         bg-opacity-80
         ring-white
         ring-opacity-30
-        focus:bg-green-500
+        focus:outline-none
+        focus:bg-white
       "
       :class="{ hidden: isHidden, 'ring-4': isClicked  }"
     >
