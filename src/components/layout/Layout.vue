@@ -5,7 +5,7 @@
   </div>
 
   <div class="md:hidden bg-gray-200 relative overflow-hidden">
-    <div
+    <button
       @click="moveUp"
       class="
         cursor-pointer
@@ -38,7 +38,7 @@
           />
         </svg>
       </span>
-    </div>
+    </button>
     <Navbar class="fixed w-full bg-gray-200 duration-300" :class="{'shadow-md pt-1 pb-1' : !isHidden}" />
     <Jumbotron/>
     <AboutMe />
