@@ -1,3 +1,6 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
 /* ./src/index.css */
 @tailwind base;
 @tailwind components;

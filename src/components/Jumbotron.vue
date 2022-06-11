@@ -25,7 +25,7 @@
     </p>
 
     <a
-      href="#"
+      href="https://wa.me/+6289531910926"
       class="
         px-7
         py-3
@@ -39,9 +39,7 @@
         transition
         ease-linear
         duration-500
-        focus:ring
-        focus:outline-none
-        focus:shadow-none
+        
       "
       >Hire me</a
     >
