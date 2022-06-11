@@ -38,6 +38,7 @@
         hover:bg-gray-50 hover:text-gray-700
         transition
         ease-linear
+        select-none
         duration-500
       "
       >Hire me</a
