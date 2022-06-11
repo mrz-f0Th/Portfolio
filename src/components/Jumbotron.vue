@@ -40,6 +40,8 @@
         ease-linear
         duration-500
         focus:ring
+        focus:outline-none
+        focus:shadow-none
       "
       >Hire me</a
     >
