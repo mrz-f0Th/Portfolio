@@ -36,7 +36,7 @@
         </svg>
       </span>
     </div>
-    <Navbar class="pb-10" />
+    <Navbar class="pb-20" />
     <Jumbotron />
     <AboutMe />
     <Porto />
