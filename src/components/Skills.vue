@@ -85,7 +85,7 @@
       </div>
 
       <!-- skills mobile -->
-      <div class="grid grid-cols-1 justify-items-center mt-5">
+      <div class="grid grid-cols-1 justify-items-center mt-5 md:hidden">
         <div
           class="
             bg-gray-50
@@ -113,7 +113,7 @@
             />
           </svg>
           <h1 class="font-medium text-gray-700 text-xl mb-3">Coding</h1>
-          <p class="text-gray-700 text-sm">
+          <p class="text-gray-700 text-xs font-medium">
             Javascript, Node JS, HTML5, CSS3, Vue.Js, Tailwind, Bootstrap
           </p>
         </div>
@@ -146,7 +146,7 @@
             />
           </svg>
           <h1 class="font-medium text-gray-700 text-xl mb-3">Other</h1>
-          <p class="text-gray-700 text-sm">
+          <p class="text-gray-700 text-xs font-medium">
             Git, Vim, VScode, Terminal, Adobe Ilustrator, Figma
           </p>
         </div>

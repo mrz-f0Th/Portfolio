@@ -16,6 +16,9 @@
         p-2
         rounded-lg
         bg-opacity-80
+        active:ring-4
+        ring-white
+        ring-opacity-50
       "
       :class="{ hidden: isHidden }"
     >
@@ -36,8 +39,8 @@
         </svg>
       </span>
     </div>
-    <Navbar class="pb-20" />
-    <Jumbotron />
+    <Navbar class="fixed w-full bg-gray-200 duration-300" :class="{'shadow-md pt-1 pb-1' : !isHidden}" />
+    <Jumbotron/>
     <AboutMe />
     <Porto />
     <Skills />

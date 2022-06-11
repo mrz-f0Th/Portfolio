@@ -3,7 +3,7 @@
 
         <div class="container max-w-screen-xl mx-auto px-4">
             <!-- Nav -->
-            <nav class="flex items-center justify-between mb-16 w-full">
+            <nav class="flex items-center justify-between md:mb-16 w-full">
                 <img src="../assets/image/navbar-logo.png" alt="Logo" class="w-16 bg-gray-200 md:mr-14">
 
                 <ul class="box-border h-5 hidden md:flex">

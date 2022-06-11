@@ -1,7 +1,7 @@
 <template>
   <!-- Jumbotron -->
   <div class="text-center">
-    <div class="flex justify-center mb-5 -mt-10">
+    <div class="flex justify-center mb-5 md:-mt-10 mt-32">
       <img
         src="../assets/image/home-img.png"
         alt="Image"
@@ -19,7 +19,7 @@
       Junior Programmer
     </h1>
 
-    <p class="font-normal text-gray-600 text-md md:text-xl mb-10">
+    <p class="font-normal text-gray-600 text-md md:text-xl md:mb-10 mb-20">
       I have a passion for software. I enjoy creating tools that make life
       easier for people.
     </p>
