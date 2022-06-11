@@ -16,11 +16,10 @@
         p-2
         rounded-lg
         bg-opacity-80
-        active:ring-4
         ring-white
-        ring-opacity-50
+        ring-opacity-30
       "
-      :class="{ hidden: isHidden }"
+      :class="{ hidden: isHidden, 'ring-4': isClicked  }"
     >
       <span
         ><svg
@@ -65,10 +64,18 @@ import ContactMe from "../Contact.vue";
 import { ref } from "vue";
 
 const isHidden = ref(true);
+const isClicked = ref(false);
 
 window.onscroll = () => {
-  const isTop = document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 
-  isTop ? isHidden.value = false : isHidden.value = true
+  const isTop = document.documentElement.scrollTop > 20 
+  // isTop ? isHidden.value = false : isHidden.value = true
+  // isTop ? '' : isClicked.value = false
+  if(isTop) {
+    isHidden.value = false
+  }else {
+    isHidden.value = true 
+    isClicked.value = false
+  }
 };
 
 const moveUp = () => {
@@ -76,6 +83,7 @@ const moveUp = () => {
     top: "0,0",
     behavior: "smooth",
   });
+  isClicked.value = true
 };
 </script>
 
