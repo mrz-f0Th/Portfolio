@@ -4,7 +4,7 @@
     <router-view />
   </div>
 
-  <div class="md:hidden bg-gray-200 relative">
+  <div class="md:hidden bg-gray-200 relative overflow-hidden">
     <div
       @click="moveUp"
       class="
@@ -42,6 +42,12 @@
     <Porto />
     <Skills />
     <ContactMe />
+    <footer class="">
+      <span class="text-gray-700 flex items-center justify-center h-10 bg-slate-200">made with
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+</svg> <a href="https://github.com/mrz-f0Th" target="_blank" class="underline">rakazzakaria</a></span>
+    </footer>
   </div>
 </template>
 

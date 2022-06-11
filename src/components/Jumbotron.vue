@@ -5,7 +5,7 @@
       <img
         src="../assets/image/home-img.png"
         alt="Image"
-        class="rounded-full w-72"
+        class="rounded-full md:w-72 w-56"
       />
     </div>
 
