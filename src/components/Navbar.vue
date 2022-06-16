@@ -14,9 +14,9 @@
                     <li><router-link to="/contact" class="mx-5 hover:border-b-2 border-gray-700">Contact Us</router-link></li>
                 </ul>
 
-                <!-- <button
+                <button
                     class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
-                    <a href="cv.jpeg" download="CV_RakaZakaria">Get my CV</a></button> -->
+                    <a href="cv.jpeg" download="CV_RakaZakaria">Get my CV</a></button>
             </nav>
 
             
